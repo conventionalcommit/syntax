@@ -1,0 +1,46 @@
+name: Check
+
+on:
+  push:
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: check-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Go ${{ matrix.go }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        go: ['1.24.0', stable]
+    env:
+      GOTOOLCHAIN: local
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-go@v7
+        with:
+          go-version: ${{ matrix.go }}
+          cache-dependency-path: go.mod
+      - name: Check formatting
+        run: test -z "$(gofmt -l .)"
+      - name: Static checks
+        run: go vet ./...
+      - name: Tests, allocation budgets, and race checks
+        run: go test -race -count=1 -timeout=2m ./...
+      - name: Fuzz checks
+        run: go test -run '^$' -fuzz '^FuzzParse$' -fuzztime=20s -fuzzminimizetime=1s -parallel=2 ./test
+      - name: Inspection fuzz checks
+        run: go test -run '^$' -fuzz '^FuzzInspect$' -fuzztime=20s -fuzzminimizetime=1s -parallel=2 ./test
+      - name: Constructed message fuzz checks
+        run: go test -run '^$' -fuzz '^FuzzValidMessages$' -fuzztime=20s -fuzzminimizetime=1s -parallel=2 ./test
