@@ -1,0 +1,520 @@
+[
+  {
+    "repository": "angular/angular",
+    "commit": "73911c88ca0adbafcba20bd7fdc920563816dca5",
+    "url": "https://github.com/angular/angular/commit/73911c88ca0adbafcba20bd7fdc920563816dca5",
+    "selection": "subject",
+    "message": "fix(compiler-cli): fix json parsing error in sidecar",
+    "expected": {
+      "type": "fix",
+      "scope": "compiler-cli",
+      "description": {
+        "start": 19,
+        "end": 52
+      },
+      "structured": true
+    }
+  },
+  {
+    "repository": "angular/angular",
+    "commit": "f5b0fa96a44c30af55c84e1d0e0e09c82979ee5d",
+    "url": "https://github.com/angular/angular/commit/f5b0fa96a44c30af55c84e1d0e0e09c82979ee5d",
+    "selection": "subject",
+    "message": "fix(compiler-cli): emit static ctorParameters for zero-arg constructor in jit: true",
+    "expected": {
+      "type": "fix",
+      "scope": "compiler-cli",
+      "description": {
+        "start": 19,
+        "end": 83
+      },
+      "structured": true
+    }
+  },
+  {
+    "repository": "angular/angular",
+    "commit": "40e691123625688381b1502e4503292af5bdd500",
+    "url": "https://github.com/angular/angular/commit/40e691123625688381b1502e4503292af5bdd500",
+    "selection": "subject",
+    "message": "release: bump Angular DevTools version to 1.22.2",
+    "expected": {
+      "type": "release",
+      "scope": "",
+      "description": {
+        "start": 9,
+        "end": 48
+      },
+      "structured": true
+    }
+  },
+  {
+    "repository": "angular/angular",
+    "commit": "009ec5ccbea77e4414d9264ca4b402c9cf1b6f87",
+    "url": "https://github.com/angular/angular/commit/009ec5ccbea77e4414d9264ca4b402c9cf1b6f87",
+    "selection": "full",
+    "message": "fix(compiler-cli): handle optional signals in uninvoked signals check\n\nThe uninvoked signals check in the preprocessor wasn't accounting for signals declared as optional.",
+    "expected": {
+      "type": "fix",
+      "scope": "compiler-cli",
+      "description": {
+        "start": 19,
+        "end": 69
+      },
+      "structured": true,
+      "body": {
+        "start": 71,
+        "end": 170
+      }
+    }
+  },
+  {
+    "repository": "angular/angular",
+    "commit": "d284319392029e7c1cf66164aa343fdc4a7a416d",
+    "url": "https://github.com/angular/angular/commit/d284319392029e7c1cf66164aa343fdc4a7a416d",
+    "selection": "full",
+    "message": "refactor(compiler-cli): enable passing tests\n\nEnables some tests that were failing, because our testing setup was generating duplicated class members.",
+    "expected": {
+      "type": "refactor",
+      "scope": "compiler-cli",
+      "description": {
+        "start": 24,
+        "end": 44
+      },
+      "structured": true,
+      "body": {
+        "start": 46,
+        "end": 150
+      }
+    }
+  },
+  {
+    "repository": "vuejs/core",
+    "commit": "8b479a89445868d474f17e2d837765e7c9ece5e4",
+    "url": "https://github.com/vuejs/core/commit/8b479a89445868d474f17e2d837765e7c9ece5e4",
+    "selection": "subject",
+    "message": "release: v3.5.45",
+    "expected": {
+      "type": "release",
+      "scope": "",
+      "description": {
+        "start": 9,
+        "end": 16
+      },
+      "structured": true
+    }
+  },
+  {
+    "repository": "vuejs/core",
+    "commit": "9f9b71c5c901c2b98994966dca04f667596369a2",
+    "url": "https://github.com/vuejs/core/commit/9f9b71c5c901c2b98994966dca04f667596369a2",
+    "selection": "subject",
+    "message": "chore(deps): bump source-map-js from 1.2.1 to 1.2.2 (#16150)",
+    "expected": {
+      "type": "chore",
+      "scope": "deps",
+      "description": {
+        "start": 13,
+        "end": 60
+      },
+      "structured": true
+    }
+  },
+  {
+    "repository": "vuejs/core",
+    "commit": "923f70d0a07d470558e5ee0ac04ebb7e19395323",
+    "url": "https://github.com/vuejs/core/commit/923f70d0a07d470558e5ee0ac04ebb7e19395323",
+    "selection": "subject",
+    "message": "fix(deps): update compiler (#15920)",
+    "expected": {
+      "type": "fix",
+      "scope": "deps",
+      "description": {
+        "start": 11,
+        "end": 35
+      },
+      "structured": true
+    }
+  },
+  {
+    "repository": "vuejs/core",
+    "commit": "16124033bb800f3c0baa6557770eb781cb95a419",
+    "url": "https://github.com/vuejs/core/commit/16124033bb800f3c0baa6557770eb781cb95a419",
+    "selection": "full",
+    "message": "perf(compiler-sfc): skip unused tsconfig include enumeration (#15899)\n\nfix #15898",
+    "expected": {
+      "type": "perf",
+      "scope": "compiler-sfc",
+      "description": {
+        "start": 20,
+        "end": 69
+      },
+      "structured": true,
+      "footer": {
+        "start": 71,
+        "end": 81
+      },
+      "entries": [
+        {
+          "token": {
+            "start": 71,
+            "end": 74
+          },
+          "value": {
+            "start": 76,
+            "end": 81
+          },
+          "separator": "hash"
+        }
+      ]
+    }
+  },
+  {
+    "repository": "vuejs/core",
+    "commit": "b8074de608b241f17ea16a40637722ec720f2aff",
+    "url": "https://github.com/vuejs/core/commit/b8074de608b241f17ea16a40637722ec720f2aff",
+    "selection": "full",
+    "message": "fix(suspense): enter transitions nested in the pending branch on reveal (#16121)\n\nfix #12435\nclose #15294",
+    "expected": {
+      "type": "fix",
+      "scope": "suspense",
+      "description": {
+        "start": 15,
+        "end": 80
+      },
+      "structured": true,
+      "footer": {
+        "start": 82,
+        "end": 105
+      },
+      "entries": [
+        {
+          "token": {
+            "start": 82,
+            "end": 85
+          },
+          "value": {
+            "start": 87,
+            "end": 92
+          },
+          "separator": "hash"
+        },
+        {
+          "token": {
+            "start": 93,
+            "end": 98
+          },
+          "value": {
+            "start": 100,
+            "end": 105
+          },
+          "separator": "hash"
+        }
+      ]
+    }
+  },
+  {
+    "repository": "vuejs/core",
+    "commit": "0f20152855296b7e588cc92c8f078ad35a3b536e",
+    "url": "https://github.com/vuejs/core/commit/0f20152855296b7e588cc92c8f078ad35a3b536e",
+    "selection": "full",
+    "message": "fix(compiler-sfc): respect catch and switch lexical scopes (fix #16098) (#16101)\n\nclose #16098",
+    "expected": {
+      "type": "fix",
+      "scope": "compiler-sfc",
+      "description": {
+        "start": 19,
+        "end": 80
+      },
+      "structured": true,
+      "footer": {
+        "start": 82,
+        "end": 94
+      },
+      "entries": [
+        {
+          "token": {
+            "start": 82,
+            "end": 87
+          },
+          "value": {
+            "start": 89,
+            "end": 94
+          },
+          "separator": "hash"
+        }
+      ]
+    }
+  },
+  {
+    "repository": "vitejs/vite",
+    "commit": "483512809bbdb399d66be59af0f5aeb01ccb7181",
+    "url": "https://github.com/vitejs/vite/commit/483512809bbdb399d66be59af0f5aeb01ccb7181",
+    "selection": "subject",
+    "message": "docs(config): clarify `server.fs.deny` overrides default (#23999)",
+    "expected": {
+      "type": "docs",
+      "scope": "config",
+      "description": {
+        "start": 14,
+        "end": 65
+      },
+      "structured": true
+    }
+  },
+  {
+    "repository": "vitejs/vite",
+    "commit": "eab1dc2752fcccf7f06427afc9915794e256e3bc",
+    "url": "https://github.com/vitejs/vite/commit/eab1dc2752fcccf7f06427afc9915794e256e3bc",
+    "selection": "subject",
+    "message": "fix(html): remove adjacent module tags on the first line (#23823)",
+    "expected": {
+      "type": "fix",
+      "scope": "html",
+      "description": {
+        "start": 11,
+        "end": 65
+      },
+      "structured": true
+    }
+  },
+  {
+    "repository": "vitejs/vite",
+    "commit": "1f60d62b83e2ba3d2ca600eac5cf790e84080843",
+    "url": "https://github.com/vitejs/vite/commit/1f60d62b83e2ba3d2ca600eac5cf790e84080843",
+    "selection": "subject",
+    "message": "build(deps): bump follow-redirects from 1.16.1 to 1.16.2 (#23991)",
+    "expected": {
+      "type": "build",
+      "scope": "deps",
+      "description": {
+        "start": 13,
+        "end": 65
+      },
+      "structured": true
+    }
+  },
+  {
+    "repository": "facebook/react",
+    "commit": "2363bc2b85edc36889a739f3581a879eb75f4fb8",
+    "url": "https://github.com/facebook/react/commit/2363bc2b85edc36889a739f3581a879eb75f4fb8",
+    "selection": "subject",
+    "message": "[ci] fix Flight npm validation and check browser cache hits (#38122)",
+    "expected": {
+      "error": "InvalidType",
+      "offset": 4,
+      "structured": false
+    }
+  },
+  {
+    "repository": "facebook/react",
+    "commit": "76baa3b5434fad315ece9cfd4d20d7a8d6c34a25",
+    "url": "https://github.com/facebook/react/commit/76baa3b5434fad315ece9cfd4d20d7a8d6c34a25",
+    "selection": "subject",
+    "message": "[DevTools] Find non-resource hoistable instances in the facade (#38067)",
+    "expected": {
+      "error": "InvalidType",
+      "offset": 10,
+      "structured": false
+    }
+  },
+  {
+    "repository": "facebook/react",
+    "commit": "952f45b70dab4c01371303e7e9118b63300ba96b",
+    "url": "https://github.com/facebook/react/commit/952f45b70dab4c01371303e7e9118b63300ba96b",
+    "selection": "subject",
+    "message": "Fix crash when a deleted hidden Activity's suspended data resolves (#37965)",
+    "expected": {
+      "error": "InvalidType",
+      "offset": 3,
+      "structured": false
+    }
+  },
+  {
+    "repository": "golang/go",
+    "commit": "fe8c452ee95c6e9a49155c25e494f026cb0aae0d",
+    "url": "https://github.com/golang/go/commit/fe8c452ee95c6e9a49155c25e494f026cb0aae0d",
+    "selection": "subject",
+    "message": "cmd/compile: type the inner shift as int64 in loong64 SRAVconst(MOVBreg) lowering",
+    "expected": {
+      "type": "cmd/compile",
+      "scope": "",
+      "description": {
+        "start": 13,
+        "end": 81
+      },
+      "structured": true
+    }
+  },
+  {
+    "repository": "golang/go",
+    "commit": "35455b81d3dcd923beec25b13489abbc8414221f",
+    "url": "https://github.com/golang/go/commit/35455b81d3dcd923beec25b13489abbc8414221f",
+    "selection": "subject",
+    "message": "encoding/json/v2: skip per-element addressable copies for interface values",
+    "expected": {
+      "type": "encoding/json/v2",
+      "scope": "",
+      "description": {
+        "start": 18,
+        "end": 74
+      },
+      "structured": true
+    }
+  },
+  {
+    "repository": "golang/go",
+    "commit": "557930bcbd0b0506b2d8c4e07104545cf55bf135",
+    "url": "https://github.com/golang/go/commit/557930bcbd0b0506b2d8c4e07104545cf55bf135",
+    "selection": "subject",
+    "message": "net/http: remove serverHandler",
+    "expected": {
+      "type": "net/http",
+      "scope": "",
+      "description": {
+        "start": 10,
+        "end": 30
+      },
+      "structured": true
+    }
+  },
+  {
+    "repository": "torvalds/linux",
+    "commit": "05441d697f7f9a927264f4058cbbc6a03dfcac9d",
+    "url": "https://github.com/torvalds/linux/commit/05441d697f7f9a927264f4058cbbc6a03dfcac9d",
+    "selection": "subject",
+    "message": "Merge tag 'cocci-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux",
+    "expected": {
+      "error": "InvalidType",
+      "offset": 5,
+      "structured": false
+    }
+  },
+  {
+    "repository": "torvalds/linux",
+    "commit": "51628610f9187c1c1cfe499d92e066bc22ad9693",
+    "url": "https://github.com/torvalds/linux/commit/51628610f9187c1c1cfe499d92e066bc22ad9693",
+    "selection": "subject",
+    "message": "vfs: fix take_dentry_name_snapshot() semantics",
+    "expected": {
+      "type": "vfs",
+      "scope": "",
+      "description": {
+        "start": 5,
+        "end": 46
+      },
+      "structured": true
+    }
+  },
+  {
+    "repository": "torvalds/linux",
+    "commit": "9abe2c42ecab6c86b54838d2d645ca2e10204606",
+    "url": "https://github.com/torvalds/linux/commit/9abe2c42ecab6c86b54838d2d645ca2e10204606",
+    "selection": "subject",
+    "message": "libbpf: Fix use-after-free in btf__add_type",
+    "expected": {
+      "type": "libbpf",
+      "scope": "",
+      "description": {
+        "start": 8,
+        "end": 43
+      },
+      "structured": true
+    }
+  },
+  {
+    "repository": "rust-lang/rust",
+    "commit": "712e1d350f1de77c931b354a24beeb0bb0fce559",
+    "url": "https://github.com/rust-lang/rust/commit/712e1d350f1de77c931b354a24beeb0bb0fce559",
+    "selection": "subject",
+    "message": "Auto merge of #165493 - jhpratt:rollup-oLMiOqV, r=jhpratt",
+    "expected": {
+      "error": "InvalidType",
+      "offset": 4,
+      "structured": false
+    }
+  },
+  {
+    "repository": "rust-lang/rust",
+    "commit": "a25bd0e8522e7265668b1eb10ff591ed65e8f4e7",
+    "url": "https://github.com/rust-lang/rust/commit/a25bd0e8522e7265668b1eb10ff591ed65e8f4e7",
+    "selection": "subject",
+    "message": "Rollup merge of #165491 - TaKO8Ki:remove-unused-compiler-types, r=JonathanBrouwer",
+    "expected": {
+      "error": "InvalidType",
+      "offset": 6,
+      "structured": false
+    }
+  },
+  {
+    "repository": "rust-lang/rust",
+    "commit": "d4aa55280a376ac2efb2590da275007e0d159a47",
+    "url": "https://github.com/rust-lang/rust/commit/d4aa55280a376ac2efb2590da275007e0d159a47",
+    "selection": "subject",
+    "message": "Rollup merge of #164653 - ChrisDenton:deprecate-vec-from_elem, r=joboet",
+    "expected": {
+      "error": "InvalidType",
+      "offset": 6,
+      "structured": false
+    }
+  },
+  {
+    "repository": "rust-lang/rust",
+    "commit": "7321bfbecc194cf1c268e8cfa6e3bf2aab3b8768",
+    "url": "https://github.com/rust-lang/rust/commit/7321bfbecc194cf1c268e8cfa6e3bf2aab3b8768",
+    "selection": "full",
+    "message": "Rollup merge of #165387 - RalfJung:no-winapi, r=ChrisDenton\n\nwindows OpenOptionsExt examples: replace winapi by windows crate\n\nThe winapi crate is unmaintained.",
+    "expected": {
+      "error": "InvalidType",
+      "offset": 6,
+      "structured": false
+    }
+  },
+  {
+    "repository": "carloscuesta/gitmoji",
+    "commit": "c7e067f43a33c5d9d42450314977efa409101308",
+    "url": "https://github.com/carloscuesta/gitmoji/commit/c7e067f43a33c5d9d42450314977efa409101308",
+    "selection": "subject",
+    "message": "⬆️ Bump lint-staged from 17.2.0 to 17.6.0 (#2058)",
+    "expected": {
+      "error": "InvalidType",
+      "offset": 0,
+      "structured": false
+    }
+  },
+  {
+    "repository": "carloscuesta/gitmoji",
+    "commit": "916f76dca982983c7d7a792e04486044946c885b",
+    "url": "https://github.com/carloscuesta/gitmoji/commit/916f76dca982983c7d7a792e04486044946c885b",
+    "selection": "subject",
+    "message": "🐛 Fix `/api/gitmojis/schema` endpoint",
+    "expected": {
+      "error": "InvalidType",
+      "offset": 0,
+      "structured": false
+    }
+  },
+  {
+    "repository": "carloscuesta/gitmoji",
+    "commit": "27571a832a25c706f8ebca39fd0266d782492b9c",
+    "url": "https://github.com/carloscuesta/gitmoji/commit/27571a832a25c706f8ebca39fd0266d782492b9c",
+    "selection": "subject",
+    "message": "⬆️ Bump next from 16.3.6 to 16.3.8 (#2056)",
+    "expected": {
+      "error": "InvalidType",
+      "offset": 0,
+      "structured": false
+    }
+  },
+  {
+    "repository": "carloscuesta/gitmoji",
+    "commit": "4774b049ef57eee985e71bf3dd33a30110f3cd86",
+    "url": "https://github.com/carloscuesta/gitmoji/commit/4774b049ef57eee985e71bf3dd33a30110f3cd86",
+    "selection": "full",
+    "message": "🐛 Fix incorrect HTML entity for t-rex gitmoji. (#2051)\n\nThe t-rex entry incorrectly reused the airplane entity (&#x2708;); use &#x1F996; instead.",
+    "expected": {
+      "error": "InvalidType",
+      "offset": 0,
+      "structured": false
+    }
+  }
+]
