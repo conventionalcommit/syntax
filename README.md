@@ -9,7 +9,7 @@ A fast, zero-dependency Go parser for [Conventional Commits 1.0.0](https://www.c
 - Zero-copy field accessors and exact byte `Span` / 1-based line `Position` offsets
 - Lossless whitespace, line ending (`LF` / `CRLF`), and duplicate footer preservation
 
-Requires Go 1.24 or later.
+Requires Go 1.26 or later.
 
 ## Install
 
